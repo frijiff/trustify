@@ -1,8 +1,9 @@
 import 'package:appwrite/appwrite.dart';
+import '../config/config.dart';
 
 final Client client = Client()
-    .setProject("6990e81f00023e2464a9")
-    .setEndpoint("https://fra.cloud.appwrite.io/v1");
+    .setProject(Config.appwriteProjectId)
+    .setEndpoint(Config.appwritePublicEndpoint);
 
 class AppwriteService {
   static final AppwriteService _instance = AppwriteService._internal();

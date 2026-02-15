@@ -1,8 +1,9 @@
 /// Production configuration constants
 class Config {
   // Appwrite Configuration
-  static const String APPWRITE_ENDPOINT = 'https://cloud.appwrite.io/v1';
-  static const String APPWRITE_PROJECT_ID = 'YOUR_PROJECT_ID';
+  static const String appwriteProjectId = '6990e81f00023e2464a9';
+  static const String appwriteProjectName = 'Trustify';
+  static const String appwritePublicEndpoint = 'https://fra.cloud.appwrite.io/v1';
   
   // Database Configuration
   static const String DATABASE_ID = 'reviews_db';
